@@ -144,7 +144,7 @@
                     <a href="{{ route('register') }}"
                         class="px-4 py-2 bg-blue-100 text-blue-800 text-sm font-semibold rounded-lg shadow-sm
                     hover:bg-blue-200 transition">
-                        Register
+                        Registe
                     </a>
 
                     {{-- Login --}}
