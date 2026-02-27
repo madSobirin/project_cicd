@@ -22,7 +22,9 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           script: |
             cd /var/www/praktikum_sobirin
+            php artisan down
             git pull origin main
             composer install --no-dev
             php artisan migrate --force
             php artisan optimize
+            php artisan up
